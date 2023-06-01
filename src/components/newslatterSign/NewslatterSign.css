@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.newslatter{
+     display: flex;
+}
+
+.newslatter img{
+     position: relative;
+     right: 18rem;
+     width: 48%;
+     bottom: 6rem;
+}
+
+.main{
+     margin: 0 10rem;
+}
+
+.main h4{
+     font-family: 'Montserrat', sans-serif;
+     font-size: 2.2rem;
+     font-weight: 500;
+     color: #8C8C8C;
+
+     margin-top: 15rem;
+}
+
+.main h1{
+     font-size: 8.2rem;
+     max-width: 30rem;
+     font-family: 'Elsie Swash Caps', cursive;
+     margin-bottom: 2.4rem;    
+}
+
+
+
+.main p{
+     max-width: 38rem;
+     font-size: 1.6rem;
+     font-weight: 400;
+     line-height: 2.4rem;
+     color: #8C8C8C;
+}
+
+.wrapper-email-input{
+     width: 58.5rem;
+
+     position: relative;
+
+     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.wrapper-email-input img{
+     position: absolute;
+
+     left: 1.7rem;
+     top: 40%;
+}
+
+.wrapper-email-input input{
+     height: 7rem;
+     width: 70%;
+     font-size: 1.6rem;
+     font-weight: 400;
+     border: transparent;
+
+     padding-left: 5.6rem;
+}
+
+
+.wrapper-email-input input::placeholder{
+     color: #BDBDBD;
+}
+
+.wrapper-email-input button{
+     height: 7rem;
+     width: 30%;
+     font-size: 1.6rem;
+     font-weight: 300;
+     color: #FFF;
+
+     border: transparent;
+
+     background-color:#FFCB47;
+}
