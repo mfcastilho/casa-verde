@@ -8,13 +8,13 @@ export default function NewsLetterSign(){
                     <h1>melhores plantas</h1>
                     <p>Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca.</p>
                     <div className="wrapper-email-input">
-                         <img src="../../../public/AnyConv.com__arvore-image.svg" alt="" />
+                         <img src="../../../public/email-icon.svg" alt="" />
                          <input type="email" placeholder="insira seu e-mail"/>
                          <button>Assinar newslatter</button>
                     </div>
                </div>
 
-               <img src="../../../public/arvore-image.png" alt="" />
+               <img className="arvore" src="../../../public/arvore-image.png" alt="" />
 
           </div>
      );
